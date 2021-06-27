@@ -1,0 +1,94 @@
+body {
+  background: url("dnc.jpg");
+  height: 1482px;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  position: fixed;
+
+  margin: 20px 550px;
+}
+ul {
+  list-style-type: none;
+  position: relative;
+  margin: 0px auto;
+  border-radius: 7px;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: rgb(69, 69, 69);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: rgb(214, 147, 46);
+}
+li a:active {
+  color: beige;
+}
+.logo {
+  float: left;
+  position: fixed;
+}
+.logo img {
+  width: 160px;
+  height: 125px;
+  border-radius: 125px;
+  border: 5px solid black;
+}
+.tec {
+  color: rgb(252, 245, 240);
+  font-size: 20px;
+  font-weight: 500;
+  font-style: oblique;
+  margin: 0px 0px 0px 0px;
+}
+.btn {
+  float: right;
+  margin: 20px 20px 0px 0px;
+}
+.bo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(184, 147, 147);
+  padding: 10px;
+  color: rgb(239, 241, 232);
+}
+.cont {
+  position: absolute;
+  display: inline;
+  border: 2px solid black;
+  background-color: rgb(168, 170, 172);
+  border-radius: 10px;
+  width: 23%;
+  margin: 200px;
+}
+.bx {
+  display: block;
+}
+.bx input {
+  display: box;
+  width: 294px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 20px;
+  padding: 18px;
+
+  text-align: center;
+  margin: 3px 8px 3px 8px;
+}
