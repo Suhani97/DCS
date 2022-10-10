@@ -1,55 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Github User Search</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="app.js" defer></script>
+  </head>
 
-</head>
+  <body>
+    <form id = "formElem" onsubmit = "return formSubmit()" >
+        <input type="text" class = "search" placeholder="Search a Github User Here"/>
+    </form>
 
-<!-- <style>
-    body{
-        background: url("/dnc.jpg");
-    }
-</style> -->
-<body>
+    <main class = "mainContent">
+    </main>
 
-    <header>
-        <nav class="navbar" >
-        <ul class="lis">
-            <li class="list"><a href="index.html">HOME</a></li>
-            <li class="list"><a href="#">CONTACT US</a></li>
-            <li class="list"><a href="#">ABOUT</a></li>
-            <li class="list"><a href="#">TRAINING</a></li>
-        </ul>
-        </nav>
-        <div class="logo">
-               <img src="drn.jpg">
-              <p class="tec"> SUHANI'S ACADEMY </p>
-            
-        </div>
-        <div class="btn">
-            <button class="bo">CALL US</button>
-            <button class="bo">Email Us</button>
-        </div>
-
-        
-    </header>
-    <div class="cont">
-        <h1>
-            Join the classes now
-        </h1>
-        <form action="no.php">
-            <div class="bx">
-            <input type="text" placeholder="Enter your name" >
-            <input  type="number" placeholder="Enter your phone number">
-            <input type="email" placeholder="Enter your email">
-            <input type="text" placeholder="Dance form">
- </div>
-        </form>
-    </div>
-    
-</body>
+  </body>
+  
 </html>
